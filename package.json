@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_api",
+  "version": "1.0.0",
+  "description": "portfolio backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "portfolio": "npm start --prefix portfolio",
+    "dev": "concurrently \"npm run server\" \"npm run portfolio\""
+  },
+  "author": "Myroslav Voysovych",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.4"
+  }
+}
