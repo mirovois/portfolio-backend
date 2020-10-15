@@ -4,4 +4,4 @@
 /node_modules,
 /portfolio,
 .env,
-package-lock.json
+
